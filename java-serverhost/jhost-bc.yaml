@@ -3,14 +3,10 @@ kind: BuildConfig
 metadata:
   annotations:
     openshift.io/generated-by: OpenShiftNewApp
-  creationTimestamp: "2020-09-02T14:41:16Z"
   labels:
     app: jhost
   name: jhost
   namespace: emk-us-ibm-com-manage-builds
-  resourceVersion: "129472014"
-  selfLink: /apis/build.openshift.io/v1/namespaces/emk-us-ibm-com-manage-builds/buildconfigs/jhost
-  uid: 5b95131d-ed2a-11ea-87eb-0a580a800041
 spec:
   failedBuildsHistoryLimit: 5
   nodeSelector: null
@@ -40,14 +36,12 @@ spec:
   successfulBuildsHistoryLimit: 5
   triggers:
   - github:
-      secret: x_ngQ5TXJvWPrczaq9Q9
+      secret: blahblah
     type: GitHub
   - generic:
-      secret: 0P8gLFYp_-MnW1EnC7bB
+      secret: blahblah
     type: Generic
   - type: ConfigChange
   - imageChange:
       lastTriggeredImageID: image-registry.openshift-image-registry.svc:5000/openshift/redhat-openjdk18-openshift@sha256:78af15475eac13d2ff439b33a9c3bdd39147858a824c420e8042fd5f35adce15
     type: ImageChange
-status:
-  lastVersion: 3
