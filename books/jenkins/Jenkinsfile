@@ -12,8 +12,8 @@ pipeline {
 
     environment {
         //TODO: Edit these vars as per your env
-        DEV_PROJECT = "emk-us-ibm-com-books-dev"
-        STAGE_PROJECT = "emk-us-ibm-com-books-stage"
+        DEV_PROJECT = "pipeline-dev"
+        STAGE_PROJECT = "pipeline-stage"
         APP_GIT_URL = "https://github.com/ekleinso/DO288-apps"
         //NEXUS_SERVER = "http://nexus-common.apps.ocp-na2.prod.nextcle.com/repository/nodejs"
 
